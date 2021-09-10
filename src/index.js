@@ -9,8 +9,6 @@ import allReducers from "./reducers";
 
 let store = createStore(allReducers);
 
-console.log(store);
-
 const App = (
   <Provider store={store}>
     <CounterContainer />

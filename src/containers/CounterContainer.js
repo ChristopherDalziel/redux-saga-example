@@ -3,7 +3,6 @@ import { incrementAction, decrementAction } from "../actions";
 import CounterComponent from "../components/CounterComponent";
 
 const mapStateToProps = (state) => {
-  console.log(state.counterReducers);
   return {
     value: state.counterReducers ? state.counterReducers : 0,
   };
