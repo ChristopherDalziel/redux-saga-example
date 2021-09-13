@@ -4,7 +4,7 @@ import CounterComponent from "../components/CounterComponent";
 
 const mapStateToProps = (state) => {
   return {
-    value: state.counterReducers ? state.counterReducers : 0,
+    state: state.counterReducers,
   };
 };
 
