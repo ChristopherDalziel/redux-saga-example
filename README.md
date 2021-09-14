@@ -1,4 +1,4 @@
-# React Redux Saga Hooks Example
+# React Redux Saga Class Component Example
 
 A simple counter application that uses React-Redux to create a global store and Redux-Saga to update it asynchronously.
 
