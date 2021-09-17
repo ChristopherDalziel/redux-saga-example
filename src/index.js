@@ -11,7 +11,6 @@ import createSagaMiddleware from "@redux-saga/core";
 import CounterContainer from "./containers/CounterContainer";
 import allReducers from "./reducers";
 import rootSaga from "./sagas/rootSaga";
-import counterReducers from "./reducers/counterReducers";
 
 // Middleware
 const sagaMiddleware = createSagaMiddleware();

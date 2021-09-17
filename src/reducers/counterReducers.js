@@ -20,7 +20,7 @@ const counterReducers = (state = initialState, action) => {
     case INCREMENT_SUCCESS:
       return {
         ...state,
-        value: state.value + 1,
+        value: state.value + action.payload.step,
         loading: false,
         error: null,
       };
@@ -31,7 +31,7 @@ const counterReducers = (state = initialState, action) => {
     case DECREMENT_SUCCESS:
       return {
         ...state,
-        value: state.value - 1,
+        value: state.value - action.payload.step,
         loading: false,
         error: null,
       };
